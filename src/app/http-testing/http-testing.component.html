@@ -1,0 +1,16 @@
+<p>http-testing works!</p>
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>Username</th>
+        <th>email</th>
+    </tr>
+    <tr *ngFor="let i of fetchedData">
+        <td>{{i.id}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.username}}</td>
+        <td>{{i.email}}</td>
+    </tr>
+</table>
